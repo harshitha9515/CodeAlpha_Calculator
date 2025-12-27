@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neon Calculator with SCI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="calc">
+  <div class="display">
+    <div id="expr"></div>
+    <div id="result">0</div>
+  </div>
+
+  <!-- Small SCI Toggle -->
+  <div class="top-bar">
+    <button id="sciToggle" class="sci-btn">SCI</button>
+  </div>
+
+  <!-- Scientific Keys -->
+  <div class="keys sci" id="sciKeys">
+    <button class="key op" data-fn="sin">sin</button>
+    <button class="key op" data-fn="cos">cos</button>
+    <button class="key op" data-fn="tan">tan</button>
+    <button class="key op" data-fn="sqrt">√</button>
+
+    <button class="key op" data-fn="log">log</button>
+    <button class="key op" data-fn="ln">ln</button>
+    <button class="key op" data-fn="square">x²</button>
+    <button class="key op" data-value="**">xʸ</button>
+
+    <button class="key op" data-value="Math.PI">π</button>
+    <button class="key op" data-value="Math.E">e</button>
+    <button class="key op" data-value="(">(</button>
+    <button class="key op" data-value=")">)</button>
+  </div>
+
+  <!-- Basic Keys -->
+  <div class="keys">
+    <button class="key clear" data-action="clear">C</button>
+    <button class="key" data-action="back">⌫</button>
+    <button class="key op" data-value="/">÷</button>
+    <button class="key op" data-value="*">×</button>
+
+    <button class="key" data-value="7">7</button>
+    <button class="key" data-value="8">8</button>
+    <button class="key" data-value="9">9</button>
+    <button class="key op" data-value="-">−</button>
+
+    <button class="key" data-value="4">4</button>
+    <button class="key" data-value="5">5</button>
+    <button class="key" data-value="6">6</button>
+    <button class="key op" data-value="+">+</button>
+
+    <button class="key" data-value="1">1</button>
+    <button class="key" data-value="2">2</button>
+    <button class="key" data-value="3">3</button>
+    <button class="key equal" data-action="evaluate">=</button>
+
+    <button class="key zero" data-value="0">0</button>
+    <button class="key" data-value=".">.</button>
+  </div>
+
+  <!-- History -->
+  <div id="history" class="history">
+    <div class="hist-empty">No History Yet</div>
+  </div>
+  <button id="clearHistory" class="clear-hist">Clear History</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
