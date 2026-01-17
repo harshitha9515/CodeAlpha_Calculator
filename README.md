@@ -1,104 +1,99 @@
-🧮 NeonCalc – Advanced Scientific Calculator Web App
+# 🧮 NeonCalc – Advanced Scientific Calculator Web App
 
-NeonCalc is a modern, interactive scientific calculator web application built using HTML, CSS, and JavaScript.
-It combines core calculator functionality with advanced scientific operations, calculation history, local storage persistence, and a visually rich neon UI.
+**NeonCalc** is a modern, interactive scientific calculator web application built using **HTML, CSS, and JavaScript**.
+It combines core calculator functionality with advanced scientific operations, calculation history, local storage persistence, and a visually rich **neon UI**.
 
-This project demonstrates strong JavaScript fundamentals, DOM manipulation, UI/UX design, and real-world frontend logic implementation.
+This project demonstrates strong **JavaScript fundamentals**, **DOM manipulation**, **UI/UX design**, and **real-world frontend logic implementation**.
 
-🚀 Highlights
+---
 
-✅ Basic & scientific calculator operations
+## 🚀 Highlights
 
-✅ Real-time expression evaluation
+* ✅ Basic & scientific calculator operations
+* ✅ Real-time expression evaluation
+* ✅ Scientific mode toggle (sin, cos, log, √, etc.)
+* ✅ Persistent calculation history using LocalStorage
+* ✅ Interactive neon-glass UI design
+* ✅ Error handling & edge-case validation
 
-✅ Scientific mode toggle (sin, cos, log, √, etc.)
+---
 
-✅ Persistent calculation history using LocalStorage
+## 🧠 Why NeonCalc?
 
-✅ Interactive neon-glass UI design
-
-✅ Error handling & edge-case validation
-
-🧠 Why NeonCalc?
-
-NeonCalc focuses on how real frontend utilities are built, not just basic button logic.
+NeonCalc focuses on how **real frontend utilities** are built, not just basic button logic.
 
 ✔ Clean separation of UI & logic
-
 ✔ Real-time computation & expression parsing
-
 ✔ State persistence using browser storage
-
 ✔ Elegant UI with animations & gradients
-
 ✔ Modular, readable JavaScript code
 
-This project reflects production-ready frontend problem solving.
+This project reflects **production-ready frontend problem solving**.
 
-✨ Features
+---
 
-➕ Basic Calculator Operations
+## ✨ Features
 
-Addition, subtraction, multiplication, division
+### ➕ Basic Calculator Operations
 
-Decimal handling
+* Addition, subtraction, multiplication, division
+* Decimal handling
+* Clear & backspace functionality
 
-Clear & backspace functionality
+---
 
-🔬 Scientific Calculator Mode
+### 🔬 Scientific Calculator Mode
 
-Trigonometric functions: sin, cos, tan
+* Trigonometric functions: `sin`, `cos`, `tan`
+* Logarithmic operations: `log`, `ln`
+* Square & square root operations
+* Toggle scientific keys dynamically
 
-Logarithmic operations: log, ln
+---
 
-Square & square root operations
+### 📜 Calculation History
 
-Toggle scientific keys dynamically
+* Automatically stores previous calculations
+* History persists using **localStorage**
+* Ability to clear history instantly
 
-📜 Calculation History
+---
 
-Automatically stores previous calculations
+### ⚠️ Error Handling
 
-History persists using localStorage
+* Handles invalid expressions gracefully
+* Displays `"Err"` for undefined operations
+* Prevents app crashes during evaluation
 
-Ability to clear history instantly
+---
 
-⚠️ Error Handling
+### 🎨 UI / UX Design
 
-Handles invalid expressions gracefully
+* Neon glow effects & animated borders
+* Glassmorphism layout
+* Responsive design for different screen sizes
+* Smooth hover & interaction feedback
 
-Displays "Err" for undefined operations
+---
 
-Prevents app crashes during evaluation
+## 🛠️ Tech Stack
 
-🎨 UI / UX Design
+### Frontend
 
-Neon glow effects & animated borders
+* **HTML5**
+* **CSS3** (Neon effects, gradients, animations)
+* **JavaScript (ES6+)**
 
-Glassmorphism layout
+### Browser APIs
 
-Responsive design for different screen sizes
+* LocalStorage API
+* DOM API
 
-Smooth hover & interaction feedback
+---
 
-🛠️ Tech Stack
+## 🗂️ Project Structure
 
-Frontend
-
-HTML5
-
-CSS3 (Neon effects, gradients, animations)
-
-JavaScript (ES6+)
-
-Browser APIs
-
-LocalStorage API
-
-DOM API
-
-🗂️ Project Structure
-
+```
 calculator/
 
 ├── index.html        # Main HTML structure
@@ -110,45 +105,38 @@ calculator/
 ├── image.png         # Background image
 
 └── README.md
+```
 
-⚙️ How It Works (High-Level Flow)
+---
 
-User inputs numbers & operators
+## ⚙️ How It Works (High-Level Flow)
 
-Expression is built dynamically
+1. User inputs numbers & operators
+2. Expression is built dynamically
+3. JavaScript evaluates the expression safely
+4. Result is displayed in real time
+5. Scientific functions apply mathematical transformations
+6. Calculations are stored in history
+7. History persists across page reloads
 
-JavaScript evaluates the expression safely
+---
 
-Result is displayed in real time
+## 🧪 What I Learned From This Project
 
-Scientific functions apply mathematical transformations
+* Writing clean, modular JavaScript logic
+* Handling real-time DOM updates efficiently
+* Using browser storage for persistence
+* Implementing scientific math operations
+* Designing modern UI with pure CSS
+* Managing user input validation & errors
 
-Calculations are stored in history
+---
 
-History persists across page reloads
+## 🧩 Challenges Solved
 
-🧪 What I Learned From This Project
+* Safely evaluating dynamic expressions
+* Preventing invalid mathematical operations
+* Managing UI state between basic & scientific modes
+* Creating reusable and maintainable JS functions
+* Building a visually appealing UI without frameworks
 
-Writing clean, modular JavaScript logic
-
-Handling real-time DOM updates efficiently
-
-Using browser storage for persistence
-
-Implementing scientific math operations
-
-Designing modern UI with pure CSS
-
-Managing user input validation & errors
-
-🧩 Challenges Solved
-
-Safely evaluating dynamic expressions
-
-Preventing invalid mathematical operations
-
-Managing UI state between basic & scientific modes
-
-Creating reusable and maintainable JS functions
-
-Building a visually appealing UI without frameworks
